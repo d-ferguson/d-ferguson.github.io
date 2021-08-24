@@ -1,0 +1,203 @@
+
+html {
+  font-size: 1.5vw
+  }
+
+body {
+  line-height: 1.25;
+  font-weight: 400;
+  font-family: 'EB Garamond';
+  color: #000000;
+  margin: 1%;
+}
+
+
+.main {
+        margin-top: 5em;
+	margin-bottom: 5em;
+        margin-left: auto;
+	margin-right: auto;
+        box-sizing: content-box;
+	max-width: 30rem;
+}
+
+.name {
+  font-size: 3.5rem;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: .50em;
+  }
+
+.cv,.description,.section {
+	font-family: 'PT Mono';
+	font-weight: normal;
+	font-size: 1.0rem;
+	text-align: center;
+	margin-bottom: .5em;
+	margin-left: .5em;
+	margin-right: .5em;
+}
+
+.cv {
+	margin-bottom: 3em;
+}
+
+.section {
+	margin-top: 2em;
+	margin-bottom: 3em;
+	width: 5em;
+	border-bottom: double;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pub {
+	margin-top: .75em;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pub-info {
+	width: 35%;
+	font-family: 'PT Mono';
+	text-align: right;
+	margin-right: 2rem;
+	font-size: 0.8rem;
+}
+
+.pub-title {
+	width: 65%;
+	font-size: 1.20rem;
+
+}
+
+a {
+	text-decoration: none;
+	color: #046ddc;
+}
+
+a:visited {
+	color:#7222ad;
+
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+::selection {
+  background: black;
+  color: white;
+}
+
+::-moz-selection {
+  background: black;
+  color: white;
+}
+
+
+
+
+@media screen and (max-width: 1020px) {
+   .main {
+   width: 70%;
+   }
+ }
+
+
+@media screen and (max-width: 770px) {
+  .main {
+        width: 80%;
+        }
+}
+
+@media screen and (max-width: 620px) {
+  .main {
+        width: 95%;
+        }
+}
+
+@media screen and (max-width: 500px) {
+.main {
+        width: auto;
+        }
+  .pub-info {
+	  width: 30%;
+  }
+  .pub {
+	  margin-top: 1.5em;
+  }
+}
+
+
+
+
+/* Smaller than desktop */
+@media screen and (max-width: 1250px) {
+html {
+font-size: 1.9vw
+  }
+}
+
+/* Smaller than desktop */
+@media screen and (max-width: 1020px) {
+html {
+font-size: 2.5vw
+  }
+}
+
+@media screen and (max-width: 850px) {
+html {
+font-size: 2.8vw
+  }
+}
+
+/* Smaller than tablet */
+@media screen and (max-width: 770px) {
+html {
+  font-size: 3.2vw
+  }
+}
+
+@media screen and (max-width: 620px) {
+html {
+  font-size: 4.0vw
+  }
+}
+
+/* Smaller than phablet (also point when grid becomes active) */
+@media screen and (max-width: 500px) {
+html {
+  font-size: 4.5vw
+  }
+}
+/* Smaller than mobile */
+@media screen and (max-width: 420px) {
+html {
+  font-size: 1.3em
+  }
+}
+
+/*Larger than Desktop HD */
+@media (min-width: 1800px) {
+html {
+  font-size: 1.6em
+  }
+}
+
+
+
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+
+
+
