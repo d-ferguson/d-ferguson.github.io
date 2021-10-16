@@ -54,6 +54,7 @@ body {
 
 .pub {
 	margin-top: .75em;
+	margin-bottom: 1.75em;
 	width: 100%;
 	display: flex;
 	justify-content: center;
